@@ -1,0 +1,32 @@
+.footer {
+  text-align: center;
+  &__text {
+    padding: 5px;
+  }
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    & a,input,button {
+      padding: 5px;
+    }
+  }
+}
+.btn {
+}
+.footer {
+    margin: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+  &__nav {
+    font-family: sans-serif;
+    font-size: $large;
+  }
+  &__text {
+      font-family: sans-serif;
+  }
+}
+.form {
+}

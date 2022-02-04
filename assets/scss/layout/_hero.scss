@@ -1,0 +1,121 @@
+body {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.main {
+  border: 1px solid black;
+}
+
+section {
+}
+
+.box {
+    display: flex;
+    border: 1px solid gray;
+}
+.box-aside {
+}
+
+.box-contenido {
+    
+  &__cuerpo4 {
+    text-align: center
+  }
+  &__dos-icon {
+  }
+  &__dos-img {
+    border: 2px solid black;
+    border-radius: 273px; 
+
+     
+  }
+  &__dos-paragraph {
+  }
+  &__dos-subtitle {
+  }
+  &__dos-title {
+  }
+  &__icon {
+  }
+  &__img {
+    width: 100%;
+    margin:auto
+  }
+  &__paragraph {
+  }
+  &__subtitle {
+  }
+  &__title {
+  }
+}
+.box-header {
+}
+/////////////////////////////////////////////////////////////////////////
+.box2 {
+    display: block;
+    border: 1px solid gray;
+  &__cuerpo-img {
+    width: 100%;
+    margin: auto;
+  }
+  &__icon {
+  }
+  &__title {
+  }
+}
+.box2o {
+  &__cuerpo-paragraph {
+  }
+}
+.btn {
+}
+.burger {
+}
+.fa-bars {
+}
+.fa-times {
+}
+.fas {
+}
+.footer {
+  &__nav {
+  }
+  &__text {
+  }
+}
+.form {
+}
+.main {
+}
+.navbar {
+  &__items {
+  }
+  &__logo {
+  }
+}
+.svg3 {
+  width: 100%;
+  margin: auto;
+ 
+}
+.svg4 {
+  width: 100%;
+  margin: auto;
+}
+
+/* 
+.container {
+    border: 1px solid #ccc;
+    width: 100%;
+    display: flex;
+    &__caja {
+      
+  }
+  &__imagencaja {
+  }
+  &__paragraph {
+  }
+  &__title {
+  }
+} */

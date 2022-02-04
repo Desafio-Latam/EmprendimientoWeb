@@ -1,0 +1,50 @@
+//navbar
+
+.burger {
+    
+
+}
+.fa-bars {
+
+}
+.fa-times {
+
+}
+.fas {
+
+}
+.navbar {
+    
+    display: flex;
+    
+    
+    flex-wrap: wrap;/*Si algo se sale de la caja pasa abajo*/
+    align-items: center;
+    background-color:$fc-secondary ;
+    color: $fc-background;
+    height: 100px;
+    
+
+  &__items ul {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;/*Si algo se sale de la caja pasa abajo*/
+    flex-grow: 1;
+    align-items: center;
+    height: 100%; /*Indicamos que el menu ocupe el 100% del Alto*/
+    font-size: 30px;
+    font-family: sans-serif;
+    
+
+  }
+  &__items a {
+     
+  cursor: pointer;
+  padding:10px 10px;
+  }
+  &__logo svg {
+     width: 40px;
+     height: 40px;
+    
+  }
+}
