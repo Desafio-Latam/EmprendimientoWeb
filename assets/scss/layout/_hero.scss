@@ -36,6 +36,9 @@ section {
   &__dos-subtitle {
   }
   &__dos-title {
+    background-color: black;
+    color: white;
+    padding: 5px;
   }
   &__icon {
   }
@@ -46,8 +49,12 @@ section {
   &__paragraph {
   }
   &__subtitle {
+    font-weight: 600;
   }
   &__title {
+    background-color: black;
+    color: white;
+    padding: 5px;
   }
 }
 .box-header {
@@ -63,6 +70,9 @@ section {
   &__icon {
   }
   &__title {
+    background-color: black;
+    color: white;
+    padding: 5px;
   }
 }
 .box2o {
@@ -103,8 +113,12 @@ section {
 .svg4 {
   display: grid;
   grid-template-columns: 1fr;
-  width: 100%;
+  width: 50%;
   margin: auto;
+}
+
+h2 {
+  font-weight: 600;
 }
 
 /* 
