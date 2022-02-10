@@ -5,14 +5,16 @@ body {
 
 .main {
   border: 1px solid black;
+  display: flex;
 }
 
 section {
 }
 
 .box {
-    display: grid;
-    grid-template-columns: 2fr;
+  display: contents;
+    width: 100%;
+   /*  grid-template-columns: 2fr; */
     border: 1px solid gray;
 }
 .box-aside {
@@ -61,7 +63,8 @@ section {
 }
 /////////////////////////////////////////////////////////////////////////
 .box2 {
-    display: grid;
+    
+    width: 100;
     border: 1px solid gray;
   &__cuerpo-img {
     width: 100%;
@@ -111,9 +114,9 @@ section {
  
 }
 .svg4 {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 50%;
+  display: flex;
+  /* grid-template-columns: 1fr; */
+  width: 100%;
   margin: auto;
 }
 

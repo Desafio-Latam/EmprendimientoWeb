@@ -23,7 +23,10 @@
     background-color:$fc-secondary ;
     color: $fc-background;
     height: 100px;
-    
+    &__items{
+      display: flex;
+      text-align: center;
+    }   
 
   &__items ul {
     display: flex;
@@ -42,6 +45,7 @@
   cursor: pointer;
   padding:10px 10px;
   }
+  
   &__logo svg {
      width: 40px;
      height: 40px;
